@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 On the 10-12th of April, the University of California San Diego and University of Texas Austin will be hosting an exciting event focused on high-performance computing. This event is open to all students, researchers, and enthusiasts who are interested in exploring the capabilities of supercomputers and single board computers.
 
