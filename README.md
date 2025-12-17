@@ -11,3 +11,5 @@ The event will be held both virtually and in-person, with participants having th
 Participants will be required to work within certain constraints, including a power limit of 250 watts and a cost limit of $6,000 MSRP. Teams will also be required to consist of undergraduate and graduate students only.
 
 Overall, this event promises to be an exciting opportunity for anyone interested in high-performance computing to showcase their skills, learn from others, and explore the latest technologies in this rapidly evolving field. We look forward to seeing you there!
+
+Access the home page [here](https://single-board-cluster-competition.github.io/new-sbcc-site/main-page.html)! 

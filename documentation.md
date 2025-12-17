@@ -1,5 +1,8 @@
 # Documentation
 
+## Website
+You can find the website [here](https://single-board-cluster-competition.github.io/new-sbcc-site/)
+
 ## File structure: 
 - new-sbcc-site/
     - assets/ 
