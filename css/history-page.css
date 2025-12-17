@@ -1,8 +1,156 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #171717;
+    --text-color: #f5f5f5;
+  }
+}
+
 * {
-    background-color: azure;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+nav {
+  max-width: 420px;
+  width: 100%;
+  margin: 24px auto;
+  padding: 12px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Logo link */
+nav > a img {
+  height: 36px;
+  width: 36px;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Right icon group */
+nav > div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Social links */
+nav > div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Social icons */
+nav > div img {
+  width: 22px;
+  height: 22px;
+  opacity: 0.85;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Hover effect */
+nav > div a:hover img {
+  transform: translateY(-2px);
+  opacity: 1;
+}
+
+main {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+}
+
+hr {
+    size: 2px;
+}
+
+h1 {
+    font-size: 10vh;
+    line-height: 1; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 8vh;
+}
+
+h3 {
+    margin-left: 20px;
+    font-size: 6vh;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 4vh;
+}
+
+p a {
+    color: blue;
+    font-style: italic;
+}
+
+#participants h3 {
+    text-align: center;
+    font-size: 8vh;
+}
+
+#participants div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#winner-pictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#sponsors h3 {
+    text-align: center;
+    font-size: 8vh;
+}
+
+#sponsors div{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+#sponsors div a {
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponsors div a img {
+    width: 40vw;
+    height: auto;
 }
 
 iframe {
     height: 100vh;
     width: 98vw;
+}
+
+footer p {
+    font-size: 15px;
 }

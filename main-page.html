@@ -8,7 +8,7 @@
         <title>Single Board Cluster Competition</title>
     </head>
     <body>
-        <nav>
+        <nav id="top-nav">
             <a href="">
                 <img src="./assets/favicon.jpg">
                 <p>SBCC 2026</p>
@@ -28,173 +28,190 @@
                 </button>
             </a>
         </nav>
-        <h1>
-            Single Board Cluster Competition
-        </h1>
-        <section id="introduction">
-            <p>
-                Welcome to the Single Board Cluster Competition for students, where efficiency is the key to success! 
-                In this competition, we challenge you to create the most efficient single board computer cluster that can perform complex tasks while using the least amount of power and resources.
-            </p>
-            <a href="">
-                <button>
-                    Sign up here!
-                </button>
-            </a>
-            <img src="./assets/sbc-logo.webp">
-            <caption>
-                Midjourney: Circuit board isometric concept, aspect ratio 1: 1
-            </caption>
-        </section>
-        <section id="sponsors">
-            <h2>
-                Sponsors
-            </h2>
-            <a href="https://www.vertiv.com/en-us/">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Vertiv_logo.svg">
-            </a>
-        </section>
-        <section id="cluster-requirements">
-            <h2>
-                Cluster Requirements
-            </h2>
-            <p>
-                To ensure a level playing field for all participants, the competition has a few rules and requirements. 
-                Participants are not allowed to use Apple M1-M4 processors, and their clusters must have a minimum of 4 sockets. 
-                MPI is required, and there is a power limit of <b>250 watts</b> and a cost limit of <b>$6,000</b>.
-            </p>
-        </section>
-        <section id="sbc-cluster">
-            <h2>
-                What is a SBC Cluster?
-            </h2>
-            <p>
-                A Single Board Computer (SBC) cluster refers to a group of single-board computers that are interconnected to work together as a unified computing system. 
-                Each single-board computer is a complete computer built on a single circuit board, typically with a processor, memory, storage, and various other components. 
-                When these SBCs are connected in a cluster, they can collectively perform tasks that would be challenging for a single board to handle alone. 
-                Clustering allows for parallel processing, where multiple computers work on different parts of a task simultaneously, potentially speeding up computation.
-            </p>
-        </section>
-        <!--
-            <section>
+        <main>
+            <section id="introduction">
+                <div>
+                    <h1>
+                        Single Board Cluster Competition
+                    </h1>
+                    <p>
+                        Welcome to the Single Board Cluster Competition for students, where efficiency is the key to success! 
+                        In this competition, we challenge you to create the most efficient single board computer cluster that can perform complex tasks while using the least amount of power and resources.
+                    </p>
+                    <a href="">
+                        <button>
+                            Sign up here!
+                        </button>
+                    </a>
+                </div>
+                <div>
+                    <img src="./assets/sbc-logo.webp">
+                    <caption>
+                        Midjourney: Circuit board isometric concept, aspect ratio 1:1
+                    </caption>
+                </div>
+            </section>
+            <section id="sponsors">
                 <h2>
-                    When and Where?
+                    Sponsors
+                </h2>
+                <div>
+                    <a href="https://www.vertiv.com/en-us/">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Vertiv_logo.svg">
+                    </a>
+                </div>
+            </section>
+            <!--
+                 <section id="cluster-requirements">
+                    <h2>
+                        Cluster Requirements
+                    </h2>
+                    <p>
+                        To ensure a level playing field for all participants, the competition has a few rules and requirements. 
+                        Participants are not allowed to use Apple M1-M4 processors, and their clusters must have a minimum of 4 sockets. 
+                        MPI is required, and there is a power limit of <b>250 watts</b> and a cost limit of <b>$6,000</b>.
+                    </p>
+                </section>
+            -->
+            <section id="sbc-cluster">
+                <h2>
+                    What is a SBC Cluster?
                 </h2>
                 <p>
-                    Date: 
-                    Remote participation is also possible.
+                    A Single Board Computer (SBC) cluster refers to a group of single-board computers that are interconnected to work together as a unified computing system. 
+                    Each single-board computer is a complete computer built on a single circuit board, typically with a processor, memory, storage, and various other components. 
+                    When these SBCs are connected in a cluster, they can collectively perform tasks that would be challenging for a single board to handle alone. 
+                    Clustering allows for parallel processing, where multiple computers work on different parts of a task simultaneously, potentially speeding up computation.
                 </p>
             </section>
-        -->
-        <section id="bench-apps">
-            <img src="./assets/Dall-E.webp">
-            <caption>
-                Dall-E: Super fast computers competing
-            </caption>
-            <h2>
-                Benchmarks
-            </h2>
-            <p>
-                Participants will be required to run several benchmarks to showcase the performance of their clusters. 
-                You can find more information about these benchmarks and their requirements on their respective websites.
-            </p>
-            <ul>
-                <li>
-                    <h3>
-                        High Performance Linpack (HPL)
-                    </h3>
+            <!--
+                <section>
+                    <h2>
+                        When and Where?
+                    </h2>
                     <p>
-                        A Portable Implementation of the High-Performance Linpack Benchmark for Distributed-Memory Computers
-                        <br>
-                        Link: 
-                        <a href="https://www.netlib.org/benchmark/hpl/">
-                            https://www.netlib.org/benchmark/hpl/
-                        </a>
+                        Date: 
+                        Remote participation is also possible.
                     </p>
-                </li>
-                <li>
-                    <h3>
-                        XX
-                    </h3>
+                </section>
+            -->
+            <section id="bench-apps">
+                <h2>
+                    Benchmarks and Applications
+                </h2>
+                <p>
+                    Participants will be required to run several benchmarks and applications to showcase their skills and the performance of their clusters. 
+                    You can find more information about these benchmarks and applications, along with their requirements, on their respective websites.
+                </p>
+                <div id="bench-apps-content">
+                    <div>
+                        <img src="./assets/Dall-E.webp">
+                        <caption>
+                            Dall-E: Super fast computers competing
+                        </caption>
+                    </div>
+                    <div>
+                        <details>
+                            <summary>
+                                High Performance Linpack (HPL)
+                            </summary>
+                            <p>
+                                A Portable Implementation of the High-Performance Linpack Benchmark for Distributed-Memory Computers
+                                <br>
+                                Link: 
+                                <a href="https://www.netlib.org/benchmark/hpl/">
+                                    https://www.netlib.org/benchmark/hpl/
+                                </a> 
+                            </p>
+                        </details>
+                        <details>
+                            <summary>
+                                xx
+                            </summary>
+                            <p>
+                                xx
+                                <br>
+                                Link: 
+                                <a href="">
+                                    xx
+                                </a> 
+                            </p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+            <section id="quote">
+                <blockquote>
+                    "This is an excellent opportunity to gain <b>hands-on experience</b> with <b>HPC</b>, enhancing technical skills and preparing for <b>industry</b> challenges."
+                </blockquote>
+                <div id="quote-person">
+                    <img src="./assets/Haase.png">
                     <p>
-                        XX
-                        <br>
-                        Link: 
-                        <a href="">
-                            XX
-                        </a>
+                        Louise Møller Haase
+                        <span>
+                            Vice Dean, Aalborg University
+                        </span>
                     </p>
-                </li>
-            </ul>
-        </section>
-        <section id="quote">
-            <blockquote>
-                "This is an excellent opportunity to gain <b>hands-on experience</b> with <b>HPC</b>, enhancing technical skills and preparing for <b>industry</b> challenges."
-            </blockquote>
-            <p>
-                Louise Møller Haase
-                <span>
-                    Vice Dean, Aalborg University
-                </span>
-            </p>
-        </section>
-        <section id="faq">
-            <h2>
-                Frequently Asked Questions (FAQ)
-            </h2>
-            <p>
-                We will be updating this section with more questions and answers as they arise.
-            </p>
-            <details>
-                <summary>
-                    When and where is it?
-                </summary>
+                </div>
+            </section>
+            <section id="faq">
+                <h2>
+                    Frequently Asked Questions (FAQ)
+                </h2>
                 <p>
-                    The competition will be held virtually from April 10th - 12th 2025. 
+                    We will be updating this section with more questions and answers as they arise.
                 </p>
-            </details>
-            <details>
-                <summary>
-                    What is the budget for the hardware?
-                </summary>
+                <details>
+                    <summary>
+                        When and where is it?
+                    </summary>
+                    <p>
+                        The competition will be held virtually from April 10th - 12th 2025. 
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        What is the budget for the hardware?
+                    </summary>
+                    <p>
+                        6000 USD MSRP
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        What is the power budget for the cluster?
+                    </summary>
+                    <p>
+                        250 Watts
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        When is the deadline for sign up?
+                    </summary>
+                    <p>
+                        The application deadline is on the 9th of February. 
+                        Your real deadline is getting hardware, and setting it up in time. 
+                        After sign up you need to submit a proposal for the hardware you're going to use by the 28th of February.
+                    </p>
+                </details>
+            </section>
+            <section id="sign-up">
+                <h2>
+                    Ready to sign up?
+                </h2>
                 <p>
-                    6000 USD MSRP
+                    Everyone is welcome to join the competition, and be part of our community!
                 </p>
-            </details>
-            <details>
-                <summary>
-                    What is the power budget for the cluster?
-                </summary>
-                <p>
-                    250 Watts
-                </p>
-            </details>
-            <details>
-                <summary>
-                    When is the deadline for sign up?
-                </summary>
-                <p>
-                    The application deadline is on the 9th of February. 
-                    Your real deadline is getting hardware, and setting it up in time. 
-                    After sign up you need to submit a proposal for the hardware you're going to use by the 28th of february.
-                </p>
-            </details>
-        </section>
-        <section id="sign-up">
-            <h2>
-                Ready to sign up?
-            </h2>
-            <p>
-                Everyone is welcome to join the competition, and be part of our community!
-            </p>
-            <a href="">
-                <button>
-                        Sign up now
-                </button>
-            </a>
-        </section>
+                <a href="">
+                    <button>
+                            Sign up now
+                    </button>
+                </a>
+            </section>
+        </main>
         <footer>
-            <nav>
+            <nav id="bottom-nav">
                 <a href="">
                     <img src="./assets/favicon.jpg">
                 </a>
