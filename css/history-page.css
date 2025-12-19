@@ -53,7 +53,7 @@ nav > div a {
 nav > div img {
   width: 56px;
   height: 56px;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 /* Hover effects */

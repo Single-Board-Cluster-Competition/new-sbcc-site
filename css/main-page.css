@@ -33,7 +33,7 @@
 
   background: var(--bg-color);
   border-radius: 16px;
-  box-shadow: 0 8px 24px var(--shadow-color)
+  box-shadow: 0 8px 24px var(--shadow-color);
 }
 
 /* All links */
@@ -507,70 +507,69 @@ h2 {
 /* Bottom navigation container */
 #bottom-nav {
   width: 95vw;
-  margin: 60px auto 40px;
-  padding: 24px 40px;
+  margin: 24px auto;
+  padding: 12px 20px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  gap: 36px;
 
-  background: #ffffff;
-  border-radius: 20px;
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  background: var(--bg-color);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px var(--shadow-color);
 }
 
 /* Links */
 #bottom-nav > a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.2s ease;
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.2s ease;
 }
 
-/* Hover effect */
+/* Hover */
 #bottom-nav > a:hover {
-  color: #0077ff;
+    color: #0077ff;
+    transform: translateY(-2px);
 }
 
 /* Logo */
 #bottom-nav > a img {
-  height: 36px;
+  height: 48px;
   width: auto;
   display: block;
 }
 
-/* Right section: Follow Us */
+/* Follow us section*/
 #bottom-nav > div {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
-/* Follow text */
 #bottom-nav > div p {
   margin: 0;
-  font-weight: 600;
-  color: #555;
+  font-size: 24px;
 }
 
-/* Social links */
 #bottom-nav > div a {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Social icons */
 #bottom-nav > div img {
-  height: 24px;
-  width: 24px;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  height: 36px;
+  width: 36px;
+  transition: transform 0.2s ease;
 }
 
-/* Hover animation for icons */
+/* Hover effects */
 #bottom-nav > div a:hover img {
   transform: translateY(-2px);
-  opacity: 0.85;
 }
 
 footer p {
