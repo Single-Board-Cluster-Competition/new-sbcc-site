@@ -10,6 +10,7 @@ You can find the website [here](https://single-board-cluster-competition.github.
         - favicon.jpg
     - components/ 
         - FAQ.js
+        - bench-apps.js
     - css
         - main-page.css
         - history-page.html
@@ -21,6 +22,7 @@ You can find the website [here](https://single-board-cluster-competition.github.
     - history-page.html
     - rules-page.html
     - about-us-page.html
+    - .gitignore
 
 ### Description
 - assets: 
@@ -42,11 +44,16 @@ This file is for displaying the history of SBCC
 This file is for displaying the SBCC rules. 
 - about-us-page.html: 
 This file is for displaying information about the SBCC committee. 
+- .gitignore
+This file is for storing all the files that should not be pushed to github publicly. 
+
+## Design Decision Log: 
+- The site is built off of the [previous SBCC website](https://github.com/Single-Board-Cluster-Competition/sbcc-site)
+- 
+
 
 ## To Do:
-Use JS to fill out FAQ, Bench/Apps
-Use JS fall back that is hidden if JS active. If JS inactive, the HTML will show
-The Nav bar for home page will include all the other pages
-The Nav bar for the sub pages will only go home or to our socials
-
-If time permits, use a email submission or search bar function
+- Responsive Design (make it look good for phones)
+- Use JS to fill out FAQ, Bench/Apps
+- Use JS fall back that is hidden if JS active. If JS inactive, the HTML will show
+- Use a email submission or search bar function
