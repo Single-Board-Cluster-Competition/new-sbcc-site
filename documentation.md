@@ -49,7 +49,10 @@ This file is for storing all the files that should not be pushed to github publi
 
 ## Design Decision Log: 
 - The site is built off of the [previous SBCC website](https://github.com/Single-Board-Cluster-Competition/sbcc-site)
-- 
+- The elements should be maximum 95vw wide so that there is a margin for people use scroll bars and etc
+- The home page has every subpage on its navigation bars
+- All the sub pages only have a link to the home page and the socials
+- All the clickable elements are bouncy because it feels nice
 
 
 ## To Do:
@@ -57,3 +60,4 @@ This file is for storing all the files that should not be pushed to github publi
 - Use JS to fill out FAQ, Bench/Apps
 - Use JS fall back that is hidden if JS active. If JS inactive, the HTML will show
 - Use a email submission or search bar function
+- Fix history page auto jumping to SBCC 2024
