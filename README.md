@@ -15,9 +15,9 @@ Overall, this event promises to be an exciting opportunity for anyone interested
 
 Access the home page [here](https://single-board-cluster-competition.github.io/new-sbcc-site/main-page.html)! 
 
+---
 
 ## SBCC 2025
----
 On the 10-12th of April, the University of California San Diego and University of Texas Austin will be hosting an exciting event focused on high-performance computing. This event is open to all students, researchers, and enthusiasts who are interested in exploring the capabilities of supercomputers and single board computers.
 
 Participants will have the opportunity to showcase their skills in building and optimizing single board computer clusters using the latest hardware and software technologies.
