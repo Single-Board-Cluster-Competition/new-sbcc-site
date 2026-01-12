@@ -53,7 +53,7 @@ This file is for storing all the files that should not be pushed to github publi
 - The home page has every subpage on its navigation bars
 - All the sub pages only have a link to the home page and the socials
 - All the clickable elements are bouncy because it feels nice
-
+- use `<script src="./components/ad-popup.js"></script>` to add the funny popup. 
 
 ## To Do:
 - Responsive Design (make it look good for phones)
