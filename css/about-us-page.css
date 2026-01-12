@@ -16,6 +16,7 @@
     max-width: 95vw;
     background-color: var(--bg-color);
     color: var(--text-color);
+    font-family: Helvetica;
 }
 
 nav {
@@ -68,14 +69,14 @@ nav > a:hover img {
 
 h1 {
     text-align: center;
-    font-size: 10vh;
+    font-size: clamp(4vh,250px,6vh);
     line-height: 1; 
 }
 
 p {
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 4vh;
+    font-size: clamp(2vh,150px,4vh);
 }
 
 p a {
@@ -90,7 +91,7 @@ p a {
 }
 
 footer p {
-    font-size: 15px;
+    font-size: 25px;
 }
 
 #ad-popup {
@@ -114,6 +115,7 @@ footer p {
 }
 
 #ad-popup h3 {
+  padding-top: 25px;
   text-align: center;
   width: 100%;
   font-size: clamp(1em, 3cqw, 2em);
@@ -128,14 +130,14 @@ footer p {
 #ad-popup img {
   align-self: center;
   margin-top: 5px;
-  max-height: 40vh;
+  max-height: 35vh;
 }
 
 #ad-popup-close {
   position: absolute;
-  top: 6px;
-  right: 8px;
+  top: 5px;
+  right: 5px;
   cursor: pointer;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 25px;
 }

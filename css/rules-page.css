@@ -16,6 +16,7 @@
     max-width: 95vw;
     background-color: var(--bg-color);
     color: var(--text-color);
+    font-family: Helvetica;
 }
 
 nav {
@@ -68,14 +69,14 @@ nav > a:hover img {
 
 h1 {
     text-align: center;
-    font-size: 10vh;
+    font-size: clamp(4vh,250px,6vh);
     line-height: 1; 
 }
 
 p {
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 4vh;
+    font-size: clamp(2vh,150px,4vh);
 }
 
 p a {
@@ -84,5 +85,5 @@ p a {
 }
 
 footer p {
-    font-size: 15px;
+    font-size: 25px;
 }
