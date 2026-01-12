@@ -114,6 +114,7 @@ footer p {
 }
 
 #ad-popup h3 {
+  text-align: center;
   width: 100%;
   font-size: clamp(1em, 3cqw, 2em);
   margin: 5px;
@@ -122,6 +123,12 @@ footer p {
 #ad-popup p {
   margin: 0 0 12px;
   font-size: 14px;
+}
+
+#ad-popup img {
+  align-self: center;
+  margin-top: 5px;
+  max-height: 40vh;
 }
 
 #ad-popup-close {

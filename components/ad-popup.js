@@ -16,6 +16,7 @@ function createPopup() {
     popup.innerHTML = `
         <h3>🔥 Hot Single Boards in your area!</h3>
         <p>All the heat! Only ${priceInfo}!</p>
+        <img src="./assets/funny-haha/rpi5.png">
     `;
 
     popup.appendChild(closeButton);
