@@ -6,9 +6,9 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-      --bg-color: #171717;
-      --text-color: #f5f5f5;
-      --shadow-color: rgba(245, 245, 245, 0.12);
+        --bg-color: #171717;
+        --text-color: #f5f5f5;
+        --shadow-color: rgba(245, 245, 245, 0.12);
     }
 }
 
@@ -91,4 +91,44 @@ p a {
 
 footer p {
     font-size: 15px;
+}
+
+#ad-popup {
+  position: fixed;
+  bottom: 20px;
+  right: -50vw; /* hidden off-screen */
+  width: 50vw;
+  height: 50vh;
+  padding: 16px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  transition: right 0.4s ease-in-out;
+}
+
+#ad-popup.show {
+  right: 20px;
+}
+
+#ad-popup h3 {
+  width: 100%;
+  font-size: clamp(1em, 3cqw, 2em);
+  margin: 5px;
+}
+
+#ad-popup p {
+  margin: 0 0 12px;
+  font-size: 14px;
+}
+
+#ad-popup-close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
 }
