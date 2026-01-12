@@ -13,12 +13,13 @@ function createPopup() {
 
     const priceInfo = getLocalizedPrice();
 
-    popup.innerHTML = `
-        <h3>🔥 Hot Single Boards in your area!</h3>
-        <p>All the heat! Only ${priceInfo}!</p>
-        <img src="./assets/funny-haha/rpi5.png">
-    `;
+    let variant = Math.random() < 0.5 ? "hot" : "cool";
+    let content = getPopupContent(variant, priceInfo);
 
+    popup.innerHTML = `
+        
+    `;
+    popup.innerHTML = content;
     popup.appendChild(closeButton);
     document.body.appendChild(popup);
 
@@ -31,6 +32,21 @@ function createPopup() {
         closeButton.addEventListener("click", () => popup.remove());
     }, 450); 
 
+}
+
+function getPopupContent(variant, priceInfo) {
+    if (variant === "hot") {
+        return `
+            <h3>🔥 Hot Single Boards in your area!</h3>
+            <p>All the heat! Only ${priceInfo}!</p>
+            <img src="./assets/funny-haha/rpi5.png">
+        `;
+    }
+    return `
+        <h3>🔥 Hot Single Boards in your area!</h3>
+        <p>All the heat! Only ${priceInfo}!</p>
+        <img src="./assets/funny-haha/rpi5c.png">
+    `;
 }
 
 function getLocalizedPrice() {
