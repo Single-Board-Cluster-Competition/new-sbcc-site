@@ -84,6 +84,10 @@ p a {
     font-style: italic;
 }
 
+#emails {
+    font-size: clamp(25px,50px,75px);
+}
+
 #join-us img {
     margin-left: 20px;
     width: 40vw;
