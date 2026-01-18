@@ -16,6 +16,7 @@
     max-width: 95vw;
     background-color: var(--bg-color);
     color: var(--text-color);
+    font-family: Helvetica;
 }
 
 nav {
@@ -78,24 +79,24 @@ hr {
 }
 
 h1 {
-    font-size: 10vh;
+    font-size: clamp(4vh,250px,6vh);
     line-height: 1; 
 }
 
 h2 {
     text-align: center;
-    font-size: 8vh;
+    font-size: clamp(3vh,225px,5vh);
 }
 
 h3 {
     margin-left: 20px;
-    font-size: 6vh;
+    font-size: clamp(2vh,175px,4vh);
 }
 
 p {
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 4vh;
+    font-size: clamp(2vh,150px,3vh);
 }
 
 p a {
@@ -105,7 +106,7 @@ p a {
 
 #participants h3 {
     text-align: center;
-    font-size: 8vh;
+    font-size: clamp(3vh,200px,5vh);
 }
 
 #participants div {
@@ -124,7 +125,7 @@ p a {
 
 #sponsors h3 {
     text-align: center;
-    font-size: 8vh;
+    font-size: clamp(3vh,200px,5vh);
 }
 
 #sponsors div{
@@ -152,5 +153,5 @@ iframe {
 }
 
 footer p {
-    font-size: 15px;
+    font-size: 20px;
 }

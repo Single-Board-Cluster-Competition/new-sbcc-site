@@ -18,6 +18,7 @@
 * {
     background-color: var(--bg-color);
     color: var(--text-color);
+    font-family: Helvetica;
 }
 
 /* Top navigation container */
@@ -553,5 +554,5 @@ h2 {
 }
 
 footer p {
-    font-size: 15px;
+    font-size: 20px;
 }
