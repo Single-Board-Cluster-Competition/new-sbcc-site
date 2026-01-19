@@ -85,7 +85,7 @@ p a {
 }
 
 #emails {
-    font-size: clamp(25px,50px,75px);
+    font-size: clamp(25px,50px,4vh);
 }
 
 #join-us img {
