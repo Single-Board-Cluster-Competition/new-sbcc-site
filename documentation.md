@@ -54,6 +54,7 @@ This file is for storing all the files that should not be pushed to github publi
 - All the sub pages only have a link to the home page and the socials
 - All the clickable elements are bouncy because it feels nice
 - use `<script src="./components/ad-popup.js"></script>` to add the funny popup. 
+- use `<script src="./components/bench-apps.js"></script>` on `main-page.html` to add the IQ Tree line. 
 - rename `redirect.html` to `index.html` if you want root to be redirected to `main-page.html` instead of `README.md`
 
 ## To Do:
