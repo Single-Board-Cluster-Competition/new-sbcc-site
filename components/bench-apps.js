@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         IQ-TREE
                     </summary>
                     <p>
-                        You need a high IQ to understand this tree. Your IQ is not high enough. Keep clicking...
+                        Phylogenomic analysis for massive datasets using complex evolutionary models. 
                         <br>
                         Link: 
                         <a href="https://github.com/iqtree/iqtree2">
