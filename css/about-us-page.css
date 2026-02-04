@@ -13,10 +13,13 @@
 }
 
 * {
-    max-width: 95vw;
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: Helvetica;
+}
+
+body {
+    max-width: 95vw;
 }
 
 nav {

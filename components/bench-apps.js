@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             openCount++;
 
             // trigger on the second open
-            if (openCount === 3) {
+            if (openCount <= 5 && openCount >= 3) {
                 targetDetails.innerHTML = `
                     <summary>
                         IQ-TREE
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </p>
                 `;
             }
-            else if (openCount <= 10 && openCount > 3) {
+            else if (openCount <= 10 && openCount > 5) {
                 targetDetails.innerHTML = `
                     <summary>
                         IQ-TREE
