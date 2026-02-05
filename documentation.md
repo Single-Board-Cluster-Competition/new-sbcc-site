@@ -56,10 +56,10 @@ This file is for storing all the files that should not be pushed to github publi
 - use `<script src="./components/ad-popup.js"></script>` to add the funny popup. 
 - use `<script src="./components/bench-apps.js"></script>` on `main-page.html` to add the IQ Tree line. 
 - rename `redirect.html` to `index.html` if you want root to be redirected to `main-page.html` instead of `README.md`
+- Used lazy loading on the iframes
 
 ## To Do:
 - Responsive Design (make it look good for phones)
 - Use JS to fill out FAQ, Bench/Apps
 - Use JS fall back that is hidden if JS active. If JS inactive, the HTML will show
 - Use a email submission or search bar function
-- Fix history page auto jumping to SBCC 2024
