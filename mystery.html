@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'" />
+  </head>
+  <body>
+    <h1>
+        Mystery Application
+    </h1>
+    <youtube id="player"></youtube>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+    function onYouTubeIframeAPIReady() {
+        new YT.Player('player', {
+        videoId: 'dQw4w9WgXcQ',
+        playerVars: {
+            autoplay: 1,
+            mute: 1
+        },
+        events: {
+            onReady: function(event) {
+            event.target.playVideo();
+            }
+        }
+        });
+    }
+    </script>
+  </body>
+</html>
