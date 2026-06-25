@@ -19,11 +19,11 @@
 }
 
 body {
-    max-width: 95vw;
+    width: 99.4%;
 }
 
 nav {
-    width: 90vw;
+    width: 90%;
     margin: 24px auto;
     padding: 12px 20px;
 

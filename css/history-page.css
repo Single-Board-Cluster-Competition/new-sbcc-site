@@ -19,7 +19,7 @@
 }
 
 body {
-    max-width: 95vw;
+    width: 99.4%;
 }
 
 nav {
@@ -28,8 +28,8 @@ nav {
     padding: 12px 20px;
 
     display: flex;
-   align-items: center;
-   justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
 
     background: var(--bg-color);
     border-radius: 16px;
